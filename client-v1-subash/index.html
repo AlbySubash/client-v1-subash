@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Tara Natural Foods | Kingston's Original Natural Food Store</title>
+  <meta name="description" content="Tara Natural Foods - Kingston's original natural food store since 1972. Organic produce, vitamins, supplements, and health foods." />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- ✅ Correct path (css/styles.css) -->
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+  <!-- Skip link (accessibility) -->
+  <a class="skip-link" href="#home">Skip to content</a>
+
+  <!-- Animated Background Particles -->
+  <div class="particles" id="particles"></div>
+
+  <!-- Navigation -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="logo" aria-label="Tara Natural Foods home">
+        <div class="logo-icon" aria-hidden="true">
+          <svg viewBox="0 0 60 60" fill="none">
+            <circle cx="30" cy="30" r="28" stroke="currentColor" stroke-width="2" />
+            <path d="M30 10 C20 20, 15 30, 30 50 C45 30, 40 20, 30 10" fill="currentColor" />
+            <circle cx="30" cy="25" r="5" fill="currentColor" />
+          </svg>
+        </div>
+        <div class="logo-text">
+          <span class="logo-main">TARA</span>
+          <span class="logo-sub">NATURAL FOODS</span>
+        </div>
+      </a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="navMenu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul class="nav-menu" id="navMenu" aria-label="Primary navigation">
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#about" class="nav-link">Our Story</a></li>
+        <li><a href="#products" class="nav-link">Products</a></li>
+        <li><a href="#wellness" class="nav-link">Wellness</a></li>
+        <li><a href="#visit" class="nav-link">Visit</a></li>
+
+        <li>
+          <a href="https://taranaturalfoods.storebyweb.com/s/1000-1/" class="nav-link btn-shop" target="_blank" rel="noopener noreferrer">
+            <span>Shop Online</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <path d="M5 12h14M12 5l7 7-7 7" />
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="hero-bg">
+      <div class="hero-bg-layer" data-speed="0.2"></div>
+      <div class="hero-bg-overlay"></div>
+    </div>
+
+    <div class="hero-content">
+      <div class="hero-badge">
+        <span class="badge-star" aria-hidden="true">★</span>
+        <span>Since 1972</span>
+      </div>
+
+      <h1 class="hero-title">
+        <span class="title-line">Tara</span>
+        <span class="title-line">Natural</span>
+        <span class="title-line accent">Foods</span>
+      </h1>
+
+      <p class="hero-subtitle">Kingston's Original Natural Food Store</p>
+      <p class="hero-description">Nourishing our community with organic, wholesome foods for over 50 years</p>
+
+      <div class="hero-buttons">
+        <a href="#about" class="btn btn-primary">
+          <span>Discover Our Story</span>
+          <div class="btn-shine" aria-hidden="true"></div>
+        </a>
+
+        <a href="https://taranaturalfoods.storebyweb.com/s/1000-1/" class="btn btn-outline" target="_blank" rel="noopener noreferrer">
+          <span>Shop Online</span>
+        </a>
+      </div>
+    </div>
+
+    <div class="scroll-indicator" aria-hidden="true">
+      <div class="mouse">
+        <div class="wheel"></div>
+      </div>
+      <span>Scroll to explore</span>
+    </div>
+
+    <div class="floating-leaves" aria-hidden="true">
+      <div class="leaf leaf-1">🍃</div>
+      <div class="leaf leaf-2">🌿</div>
+      <div class="leaf leaf-3">🍃</div>
+      <div class="leaf leaf-4">🌿</div>
+    </div>
+  </section>
+
+  <!-- Stats Banner -->
+  <section class="stats-banner" aria-label="Store highlights">
+    <div class="stats-container">
+      <div class="stat-item" data-count="50">
+        <span class="stat-number">0</span>
+        <span class="stat-suffix">+</span>
+        <span class="stat-label">Years of Service</span>
+      </div>
+
+      <div class="stat-item" data-count="5000">
+        <span class="stat-number">0</span>
+        <span class="stat-suffix">+</span>
+        <span class="stat-label">Products</span>
+      </div>
+
+      <div class="stat-item" data-count="100">
+        <span class="stat-number">0</span>
+        <span class="stat-suffix">%</span>
+        <span class="stat-label">Organic Options</span>
+      </div>
+
+      <div class="stat-item" data-count="3">
+        <span class="stat-number">0</span>
+        <span class="stat-suffix">rd</span>
+        <span class="stat-label">Generation Family</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="about" id="about">
+    <div class="about-container">
+      <div class="about-visual">
+        <div class="about-image-wrapper">
+          <img
+            src="https://images.unsplash.com/photo-1542838132-92c53300491e?w=800&q=80"
+            alt="A warm and welcoming store interior"
+            class="about-image"
+            loading="lazy"
+          />
+          <div class="image-frame" aria-hidden="true"></div>
+          <div class="floating-card">
+            <span class="card-icon" aria-hidden="true">🏆</span>
+            <span class="card-text">Kingston's Best Health Food Store 2024</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="about-content">
+        <span class="section-eyebrow">Our Story</span>
+        <h2 class="section-title">A Heritage of <span class="highlight">Health</span> &amp; <span class="highlight">Wellness</span></h2>
+
+        <div class="about-text">
+          <p>
+            Step into our historic downtown Kingston location and be transported by the warm aroma of freshly ground spices,
+            the beauty of exposed brick walls, and our carefully restored pressed tin ceiling.
+          </p>
+          <p>
+            For over five decades, we've been Kingston's trusted source for organic produce, natural supplements,
+            and wholesome foods that nourish both body and soul.
+          </p>
+        </div>
+
+        <div class="features-grid">
+          <div class="feature-card">
+            <div class="feature-icon-wrap"><span aria-hidden="true">🌱</span></div>
+            <h4>Organic Produce</h4>
+            <p>Fresh, locally sourced fruits and vegetables</p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon-wrap"><span aria-hidden="true">💊</span></div>
+            <h4>Vitamins &amp; Supplements</h4>
+            <p>Premium Health First products</p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon-wrap"><span aria-hidden="true">🥜</span></div>
+            <h4>Bulk Foods</h4>
+            <p>Grains, nuts, and dried goods</p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon-wrap"><span aria-hidden="true">☕</span></div>
+            <h4>Fresh Coffee</h4>
+            <p>Artisan roasted daily</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Products -->
+  <section class="products" id="products">
+    <div class="products-header">
+      <span class="section-eyebrow">What We Offer</span>
+      <h2 class="section-title">Natural Goodness <br /><span class="gradient-text">In Every Aisle</span></h2>
+    </div>
+
+    <div class="products-grid">
+      <div class="product-card large">
+        <img src="https://images.unsplash.com/photo-1610832958506-aa56368176cf?w=600&q=80" alt="Fresh organic produce" loading="lazy" />
+        <div class="product-overlay">
+          <span class="product-category">Fresh</span>
+          <h3>Organic Produce</h3>
+          <p>Locally sourced seasonal fruits and vegetables</p>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400&q=80" alt="Vitamins and supplements" loading="lazy" />
+        <div class="product-overlay">
+          <span class="product-category">Wellness</span>
+          <h3>Supplements</h3>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="https://images.unsplash.com/photo-1586201375761-83865001e31c?w=400&q=80" alt="Bulk pantry goods" loading="lazy" />
+        <div class="product-overlay">
+          <span class="product-category">Pantry</span>
+          <h3>Bulk Foods</h3>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=400&q=80" alt="Fresh coffee" loading="lazy" />
+        <div class="product-overlay">
+          <span class="product-category">Beverages</span>
+          <h3>Artisan Coffee</h3>
+        </div>
+      </div>
+
+      <div class="product-card wide">
+        <img src="https://images.unsplash.com/photo-1606914501449-5a9664d1d151?w=800&q=80" alt="Natural body care products" loading="lazy" />
+        <div class="product-overlay">
+          <span class="product-category">Self Care</span>
+          <h3>Natural Body Care</h3>
+          <p>Organic skincare and wellness products</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Wellness -->
+  <section class="wellness" id="wellness">
+    <div class="wellness-container">
+      <div class="wellness-header">
+        <span class="section-eyebrow">Wellness Wisdom</span>
+        <h2 class="section-title">Health Tips from <span class="highlight">Tara's</span></h2>
+        <p class="section-subtitle">Expert advice for a healthier, happier you</p>
+      </div>
+
+      <div class="blog-carousel">
+        <article class="blog-card">
+          <div class="blog-image">
+            <img src="https://images.unsplash.com/photo-1550989460-0adf9ea622e2?w=600&q=80" alt="Digestive health" loading="lazy" />
+            <span class="blog-tag">Digestive Health</span>
+          </div>
+          <div class="blog-content">
+            <h3>Gut Health Made Simple</h3>
+            <p>Discover how probiotics can help maintain a healthy balance in your gut microbiome...</p>
+            <a href="#" class="read-more" aria-label="Read Gut Health Made Simple">Read Article →</a>
+          </div>
+        </article>
+
+        <article class="blog-card featured">
+          <div class="blog-image">
+            <img src="https://images.unsplash.com/photo-1514996550219-62672472d03b?w=600&q=80" alt="Immune support" loading="lazy" />
+            <span class="blog-tag">Immune Support</span>
+          </div>
+          <div class="blog-content">
+            <h3>How Elderberries Support Seasonal Wellness</h3>
+            <p>For centuries, elderberries have been treasured for their immune-supporting properties...</p>
+            <a href="#" class="read-more" aria-label="Read Elderberries article">Read Article →</a>
+          </div>
+        </article>
+
+        <article class="blog-card">
+          <div class="blog-image">
+            <img src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=600&q=80" alt="Nutrition" loading="lazy" />
+            <span class="blog-tag">Nutrition</span>
+          </div>
+          <div class="blog-content">
+            <h3>Your Guide to Healthy Collagen</h3>
+            <p>Understanding collagen's role in your body and how to support natural production...</p>
+            <a href="#" class="read-more" aria-label="Read Collagen article">Read Article →</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Partnership -->
+  <section class="partnership" aria-label="Health First Network partnership">
+    <div class="partnership-content">
+      <div class="partnership-icon" aria-hidden="true">
+        <svg viewBox="0 0 100 100" fill="none">
+          <circle cx="50" cy="50" r="45" stroke="currentColor" stroke-width="2" />
+          <path d="M50 20 L50 80 M20 50 L80 50" stroke="currentColor" stroke-width="3" stroke-linecap="round" />
+          <circle cx="50" cy="50" r="15" fill="currentColor" />
+        </svg>
+      </div>
+
+      <h2>Proud Member of <span class="highlight">Health First Network</span></h2>
+      <p>Canada's leading independent health &amp; wellness retailers</p>
+      <a href="http://healthfirstnetwork.ca/" target="_blank" rel="noopener noreferrer" class="btn btn-outline-light">Learn More</a>
+    </div>
+    <div class="partnership-bg" aria-hidden="true"></div>
+  </section>
+
+  <!-- Visit -->
+  <section class="visit" id="visit">
+    <div class="visit-container">
+      <div class="visit-info">
+        <span class="section-eyebrow">Plan Your Visit</span>
+        <h2 class="section-title">Find Us in <span class="highlight">Downtown Kingston</span></h2>
+        <p class="visit-intro">Located just two blocks west of Lake Ontario. Fully wheelchair accessible and on the bus route.</p>
+
+        <div class="info-cards">
+          <div class="info-card">
+            <div class="info-icon" aria-hidden="true">📍</div>
+            <div class="info-content">
+              <h4>Address</h4>
+              <p>81 Princess Street<br />Kingston, ON K7L 1A6</p>
+            </div>
+          </div>
+
+          <div class="info-card">
+            <div class="info-icon" aria-hidden="true">📞</div>
+            <div class="info-content">
+              <h4>Contact</h4>
+              <p><a href="tel:6135464439">(613) 546-4439</a></p>
+            </div>
+          </div>
+
+          <div class="info-card">
+            <div class="info-icon" aria-hidden="true">🕐</div>
+            <div class="info-content">
+              <h4>Hours</h4>
+              <p>Mon–Sat: 9 AM – 6 PM<br /><span class="closed">Sunday: Closed</span></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="accessibility-note">
+          <span class="wheelchair" aria-hidden="true">♿</span>
+          <span>Fully Wheelchair Accessible</span>
+        </div>
+      </div>
+
+      <div class="visit-map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2867.6383!2d-76.4819!3d44.2316!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cd2a8c0e8c0e8c0%3A0x0!2zNDTCsDEzJzUzLjgiTiA3NsKwMjgnNTQuOCJX!5e0!3m2!1sen!2sca!4v1609459200000!5m2!1sen!2sca"
+          loading="lazy"
+          title="Tara Natural Foods Location"
+          referrerpolicy="no-referrer-when-downgrade"
+          allowfullscreen=""
+        ></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- Newsletter -->
+  <section class="newsletter" id="newsletter">
+    <div class="newsletter-container">
+      <div class="newsletter-content">
+        <span class="section-eyebrow">Stay Connected</span>
+        <h2 class="section-title">Join Our <span class="gradient-text">Wellness Community</span></h2>
+        <p>Get seasonal recipes, health tips, and exclusive offers delivered to your inbox.</p>
+
+        <form class="newsletter-form" id="newsletterForm" novalidate>
+          <div class="form-group">
+            <input type="text" id="firstName" placeholder="First Name" autocomplete="given-name" required />
+          </div>
+
+          <div class="form-group">
+            <input type="text" id="lastName" placeholder="Last Name" autocomplete="family-name" required />
+          </div>
+
+          <div class="form-group form-group-wide">
+            <input type="email" id="email" placeholder="Email Address" autocomplete="email" required />
+          </div>
+
+          <button type="submit" class="btn btn-primary">
+            <span>Subscribe</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <path d="M5 12h14M12 5l7 7-7 7" />
+            </svg>
+          </button>
+        </form>
+
+        <p class="form-note">No spam, ever. Unsubscribe anytime.</p>
+      </div>
+    </div>
+
+    <div class="newsletter-decoration" aria-hidden="true">
+      <div class="deco-circle"></div>
+      <div class="deco-circle"></div>
+      <div class="deco-circle"></div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-main">
+        <div class="footer-brand">
+          <a href="#home" class="footer-logo" aria-label="Back to top">
+            <div class="logo-icon" aria-hidden="true">
+              <svg viewBox="0 0 60 60" fill="none">
+                <circle cx="30" cy="30" r="28" stroke="currentColor" stroke-width="2" />
+                <path d="M30 10 C20 20, 15 30, 30 50 C45 30, 40 20, 30 10" fill="currentColor" />
+              </svg>
+            </div>
+            <span>TARA NATURAL FOODS</span>
+          </a>
+
+          <p>Kingston's original natural food store since 1972. Nourishing our community with organic, wholesome foods.</p>
+
+          <div class="social-links">
+            <a href="https://facebook.com/taranaturalfoods" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+              <svg viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+            </a>
+
+            <a href="https://instagram.com/taranaturalfoods" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+              <svg viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">Our Story</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#wellness">Wellness</a></li>
+            <li><a href="#visit">Visit Us</a></li>
+            <li><a href="#newsletter">Newsletter</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-contact">
+          <h4>Contact</h4>
+          <p>81 Princess Street<br />Kingston, ON K7L 1A6</p>
+          <p><a href="tel:6135464439">(613) 546-4439</a></p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Tara Natural Foods. All rights reserved.</p>
+        <p>Proud member of <a href="http://healthfirstnetwork.ca/" target="_blank" rel="noopener noreferrer">Health First Network</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ✅ Correct path (js/script.js) -->
+  <script src="js/script.js"></script>
+</body>
+</html>
